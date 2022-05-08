@@ -27,7 +27,7 @@ MONGODB_URL을 위에서 만든 mongodb 서버 링크로 설정
 
 ```bash
 MONGODB_URL="mongodb://localhost:<dbport>/<db_name>"  (로컬 서버의 경우 예시)
-MONGODB_URL="mongodb+srv://<name>:<password>@cluster0.acaph.mongodb.net/myDB?retryWrites=true&w=majority" (Atlas 서버의 경우 예시)
+MONGODB_URL="mongodb+srv://<name>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority" (Atlas 서버의 경우 예시)
 ```
 
 > Atlas 서버의 경우 <name>, <password>를 위에서 설정했던 name, password로 바꾸어 주세요.
